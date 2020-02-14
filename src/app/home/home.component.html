@@ -1,0 +1,395 @@
+<mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+    <mdb-carousel-item>
+        <div class="view w-100">
+            <img class="d-block w-100" src="assets/images/img%20(68).jpg" alt="First slide">
+            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">MALDIVES</h3>
+            <p>The Maldives offers one of the best access to snorkeling or diving with mantas. Mantas roam in groups entering channels and even the shallower lagoons of island along the reef edge.</p>
+        </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+        <div class="view w-100">
+            <img class="d-block w-100" src="assets/images/thailandguide.jpg" alt="Second slide">
+            <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">THAILAND</h3>
+            <p>Instantly connect to our destination Experts. Plan & book the best trips ever!</p>
+        </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+        <div class="view w-100">
+            <img class="d-block w-100" src="assets/images/seyshals3.jpg" alt="Seychelles">
+            <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">SEYCHELLES</h3>
+            <p>The Seychelles islands are so much more than sun, sea and sand and our new interactive map is your best guide to what fun awaits you on your holiday.</p>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>
+<br/>
+<br/>
+<div class="row">
+
+    <div class="col-lg-3">
+        <hr>
+    </div>
+    <div class="col-lg-6">
+        <div class="section-header">
+            <h2 class="section-title">How It Works</h2>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <mat-card style="min-height:282px" class="text-center">
+            <mat-icon><i style="color:#42a5f5" class="fas fa-atlas fa-2x"></i></mat-icon>
+            <br />
+            <br/>
+            <h2><b>Explore Itineraries</b></h2>
+            <br />
+            <h3>
+                <p class="text-muted">Browse our catalog of expert recommended itineraries.
+                </p>
+            </h3>
+        </mat-card>
+    </div>
+    <div class="col-md-4">
+        <mat-card style="min-height:282px" class="text-center">
+            <mat-icon><i style="color:#ef5350" class="fas fa-ticket-alt fa-2x"></i></mat-icon>
+            <br />
+            <br/>
+            <h2><b>Plan & Book your Holiday</b></h2>
+            <br />
+            <h3>
+                <p class="text-muted">No tossing around. One Expert to Personalise & Book best holiday Deals</p>
+            </h3>
+        </mat-card>
+
+    </div>
+    <div class="col-md-4">
+        <mat-card style="min-height:282px" class="text-center">
+            <mat-icon><i style="color:#7e57c2" class="fas fa-users fa-2x"></i></mat-icon>
+            <br />
+            <br/>
+            <h2><b>On Trip Assistance</b></h2>
+            <br />
+            <h3>
+                <p class="text-muted">You’re never on your own with our 24x7 Assistance</p>
+            </h3>
+        </mat-card>
+
+    </div>
+</div>
+<br/>
+<br/>
+<div class="row">
+
+    <div class="col-lg-3">
+        <hr>
+    </div>
+    <div class="col-lg-6">
+        <div class="section-header">
+            <h2 class="section-title">Popular Destinations</h2>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <hr>
+    </div>
+</div>
+<div class="destination">
+    <!-- <mat-card class="mat-parent"> -->
+    <carousel>
+        <div class="carousel-inner" role="listbox">
+
+            <slide>
+                <div class="carousel-item" style="display: block; width: 100%;">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <mat-card class="example-card">
+                                <div class="destination-image">
+                                    <img mat-card-image src="assets/images/thailand1.jpg" alt="Photo of a Shiba Inu">
+                                </div>
+                                <mat-card-content>
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Bangkok Phuket</h4>
+                                        <div class="text-muted">
+                                            <b class="text-center">Bangkok (2N) Phuket (2N)</b>
+                                            <div>
+                                                <mat-icon><i class="fas fa-fighter-jet" style="font-size: 14px;"></i></mat-icon>&nbsp; Includes Flight</div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-shuttle-van" style="font-size: 14px;"></i></mat-icon>&nbsp;Airport Transfer</div>
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-utensils" style="font-size: 14px;"></i></mat-icon>&nbsp; All Meals</div>
+                                            </div>
+                                            <div>
+                                                <mat-icon><i class="fas fa-running" style="font-size: 14px;"></i></mat-icon>&nbsp; On Trip Assist</div>
+
+                                        </div>
+                                    </div>
+                                    <h3 style="color:blue">{{36249 | currency:'INR'}} /pax</h3>
+                                    <button style="position: absolute;right: 10px;bottom: 10px;" mat-raised-button color="primary">Know More</button>
+
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                        <div class="col-md-4">
+                            <mat-card class="example-card">
+                                <div class="destination-image">
+                                    <img mat-card-image src="assets/images/bali.jpg" alt="Photo of a Shiba Inu">
+                                </div>
+                                <mat-card-content>
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Bali Indonesia</h4>
+                                        <div class="text-muted">
+                                            <b class="text-center">Bali Quickscape</b>
+                                            <div>
+                                                <mat-icon><i class="fas fa-fighter-jet" style="font-size: 14px;"></i></mat-icon>&nbsp; Includes Flight</div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-shuttle-van" style="font-size: 14px;"></i></mat-icon>&nbsp;Shared Transfer</div>
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-utensils" style="font-size: 14px;"></i></mat-icon>&nbsp; Breakfast</div>
+                                            </div>
+                                            <div>
+                                                <mat-icon><i class="fas fa-running" style="font-size: 14px;"></i></mat-icon>&nbsp; On Trip Assist</div>
+
+                                        </div>
+                                    </div>
+                                    <h3 style="color:blue">{{22000 | currency:'INR'}} /pax</h3>
+                                    <button style="position: absolute;right: 10px;bottom: 10px;" mat-raised-button color="primary">Know More</button>
+
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                        <div class="col-md-4">
+                            <mat-card class="example-card">
+                                <div class="destination-image">
+                                    <img mat-card-image src="assets/images/dubai2.jpg" alt="Photo of a Shiba Inu">
+                                </div>
+                                <mat-card-content>
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Dubai</h4>
+                                        <div class="text-muted">
+                                            <b class="text-center">Short And Crisp</b>
+                                            <div>
+                                                <mat-icon><i class="fas fa-fighter-jet" style="font-size: 14px;"></i></mat-icon>&nbsp; Includes Flight</div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-taxi" style="font-size: 14px;"></i></mat-icon>&nbsp;Transfer</div>
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-utensils" style="font-size: 14px;"></i></mat-icon>&nbsp; Breakfast</div>
+                                            </div>
+                                            <div>
+                                                <mat-icon><i class="fas fa-camera" style="font-size: 14px;"></i></mat-icon>&nbsp; Sight Seeing</div>
+
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <h3 style="color:blue">{{32499 | currency:'INR'}} /pax</h3>
+                                    <button style="position: absolute;right: 10px;bottom: 10px;" mat-raised-button color="primary">Know More</button>
+
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                    </div>
+                </div>
+            </slide>
+
+            <slide>
+                <div class="carousel-item" style="display: block; width: 100%;">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <mat-card class="example-card">
+                                <div class="destination-image">
+                                    <img mat-card-image src="assets/images/singapore1.jpg" alt="Photo of a Shiba Inu">
+                                </div>
+                                <mat-card-content>
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Singapore</h4>
+                                        <div class="text-muted">
+                                            <b class="text-center">3 Nights 3 Stars</b>
+                                            <div>
+                                                <mat-icon><i class="fas fa-fighter-jet" style="font-size: 14px;"></i></mat-icon>&nbsp; Includes Flight</div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-shuttle-van" style="font-size: 14px;"></i></mat-icon>&nbsp;Airport Transfer</div>
+
+                                            </div>
+                                            <div>
+                                                <mat-icon><i class="fas fa-running" style="font-size: 14px;"></i></mat-icon>&nbsp; On Trip Assist</div>
+
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <h3 style="color:blue">{{27999 | currency:'INR'}} /pax </h3>
+                                    <button style="position: absolute;right: 10px;bottom: 10px;" mat-raised-button color="primary">Know More</button>
+
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                        <div class="col-md-4">
+                            <mat-card class="example-card">
+                                <div class="destination-image">
+                                    <img mat-card-image src="assets/images/greece.jpg" alt="Photo of a Shiba Inu">
+                                </div>
+                                <mat-card-content>
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Greece</h4>
+                                        <div class="text-muted">
+                                            <b class="text-center">Romantic Getaway</b>
+                                            <div>
+                                                <mat-icon><i class="fas fa-fighter-jet" style="font-size: 14px;"></i></mat-icon>&nbsp; Includes Flight</div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-shuttle-van" style="font-size: 14px;"></i></mat-icon>&nbsp;Airport Transfer</div>
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-utensils" style="font-size: 14px;"></i></mat-icon>&nbsp; All Meals</div>
+                                            </div>
+                                            <div>
+                                                <mat-icon><i class="fas fa-running" style="font-size: 14px;"></i></mat-icon>&nbsp; On Trip Assist</div>
+
+                                        </div>
+                                    </div>
+                                    <h3 style="color:blue">{{66000 | currency:'INR'}} /pax</h3>
+                                    <button style="position: absolute;right: 10px;bottom: 10px;" mat-raised-button color="primary">Know More</button>
+
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                        <div class="col-md-4">
+                            <mat-card class="example-card">
+                                <div class="destination-image">
+                                    <img mat-card-image src="assets/images/malaysia.jpg" alt="Photo of a Shiba Inu">
+                                </div>
+                                <mat-card-content>
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Malaysia</h4>
+                                        <div class="text-muted">
+                                            <b class="text-center">Kuala Lampur (2N) Langkavi (2N)</b>
+                                            <div>
+                                                <mat-icon><i class="fas fa-fighter-jet" style="font-size: 14px;"></i></mat-icon>&nbsp; Includes Flight</div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-shuttle-van" style="font-size: 14px;"></i></mat-icon>&nbsp;Airport Transfer</div>
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-utensils" style="font-size: 14px;"></i></mat-icon>&nbsp; All Meals</div>
+                                            </div>
+                                            <div>
+                                                <mat-icon><i class="fas fa-running" style="font-size: 14px;"></i></mat-icon>&nbsp; On Trip Assist</div>
+
+                                        </div>
+                                    </div>
+                                    <h3 style="color:blue">{{17999 | currency:'INR'}} /pax</h3>
+                                    <button style="position: absolute;right: 10px;bottom: 10px;" mat-raised-button color="primary">Know More</button>
+
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                    </div>
+                </div>
+            </slide>
+            <slide>
+                <div class="carousel-item" style="display: block; width: 100%;">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <mat-card class="example-card">
+                                <div class="destination-image">
+                                    <img mat-card-image src="assets/images/switzerland.jpg" alt="Photo of a Shiba Inu">
+                                </div>
+                                <mat-card-content>
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Switzerland</h4>
+                                        <div class="text-muted">
+                                            <b class="text-center">Paradise On earth</b>
+                                            <div>
+                                                <mat-icon><i class="fas fa-fighter-jet" style="font-size: 14px;"></i></mat-icon>&nbsp; Includes Flight</div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-taxi" style="font-size: 14px;"></i></mat-icon>&nbsp;Transfer</div>
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-utensils" style="font-size: 14px;"></i></mat-icon>&nbsp; Breakfast</div>
+                                            </div>
+                                            <div>
+                                                <mat-icon><i class="fas fa-running" style="font-size: 14px;"></i></mat-icon>&nbsp; On Trip Assist</div>
+
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <h3 style="color:blue">{{17499 | currency:'INR'}} </h3>
+                                    <button style="position: absolute;right: 10px;bottom: 10px;" mat-raised-button color="primary">Know More</button>
+
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                        <div class="col-md-4">
+                            <mat-card class="example-card">
+                                <div class="destination-image">
+                                    <img mat-card-image src="assets/images/france.jpg" alt="Photo of a Shiba Inu">
+                                </div>
+                                <mat-card-content>
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">France</h4>
+                                        <div class="text-muted">
+                                            <b class="text-center">Love At First Flight</b>
+                                            <div>
+                                                <mat-icon><i class="fas fa-fighter-jet" style="font-size: 14px;"></i></mat-icon>&nbsp; Includes Flight</div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-shuttle-van" style="font-size: 14px;"></i></mat-icon>&nbsp;Airport Transfer</div>
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-utensils" style="font-size: 14px;"></i></mat-icon>&nbsp; All Meals</div>
+                                            </div>
+                                            <div>
+                                                <mat-icon><i class="fas fa-running" style="font-size: 14px;"></i></mat-icon>&nbsp; On Trip Assist</div>
+
+                                        </div>
+                                    </div>
+                                    <h3 style="color:blue">{{81749 | currency:'INR'}} /pax </h3>
+                                    <button style="position: absolute;right: 10px;bottom: 10px;" mat-raised-button color="primary">Know More</button>
+
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                        <div class="col-md-4">
+                            <mat-card class="example-card">
+                                <div class="destination-image">
+                                    <img mat-card-image src="assets/images/mauritius.jpg" alt="Photo of a Shiba Inu">
+                                </div>
+                                <mat-card-content>
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Mauritius</h4>
+                                        <div class="text-muted">
+                                            <b class="text-center">Water Love</b>
+                                            <div>
+                                                <mat-icon><i class="fas fa-fighter-jet" style="font-size: 14px;"></i></mat-icon>&nbsp; Includes Flight</div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-shuttle-van" style="font-size: 14px;"></i></mat-icon>&nbsp;Airport Transfer</div>
+                                                <div class="col">
+                                                    <mat-icon><i class="fas fa-utensils" style="font-size: 14px;"></i></mat-icon>&nbsp; All Meals</div>
+                                            </div>
+                                            <div>
+                                                <mat-icon><i class="fas fa-running" style="font-size: 14px;"></i></mat-icon>&nbsp; On Trip Assist</div>
+
+                                        </div>
+                                    </div>
+                                    <h3 style="color:blue">{{52499 | currency:'INR'}} </h3>
+                                    <button style="position: absolute;right: 10px;bottom: 10px;" mat-raised-button color="primary">Know More</button>
+
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                    </div>
+                </div>
+            </slide>
+        </div>
+    </carousel>
+</div>

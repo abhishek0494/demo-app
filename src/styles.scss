@@ -1,1 +1,88 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+html,
+body {
+    height: 100%;
+}
+
+.docs-navbar-header {
+    height: 52px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 16px;
+    background-color: #2a367a;
+    color: white;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+    >.mat-button {
+        &:last-child {
+            margin-left: auto;
+            color: white;
+        }
+        color: white !important;
+    }
+}
+
+.flex-spacer {
+    flex-grow: 1;
+}
+
+.content {
+    margin-top: 1000px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-bottom: 100px;
+}
+
+.docs-button {
+    padding: 0px;
+}
+
+.docs-angular-logo {
+    // background-color: floralwhite;
+    // padding: 1px;
+    height: 50px;
+    margin: 0 0px 0px 0;
+    vertical-align: middle;
+}
+
+.docs-button:hover {
+    color: white !important;
+    text-decoration: none !important;
+    opacity: 0.6;
+}
+
+.docs-button:focus {
+    color: white !important;
+    text-decoration: none !important;
+    opacity: 0.6;
+}
+
+.docs-github-logo {
+    height: 21px;
+    margin: 0 7px 2px 0;
+    vertical-align: middle;
+}
+
+.docs-navbar-link {
+    text-decoration: inherit;
+    flex: 1;
+}
+
+.docs-navbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #e5e5e5;
+}

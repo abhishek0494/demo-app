@@ -1,0 +1,30 @@
+<div>
+    <div class="example-card">
+        <div style="border-left: 5px solid #ED2553;">
+            <h2 style="color: #ED2553;margin-left:20px">Login</h2>
+        </div>
+        <!-- <mat-card-content> -->
+        <form style="width:100%">
+            <table style="width:100%" cellspacing="0">
+                <tr>
+                    <td>
+                        <mat-form-field style="width:100%">
+                            <input matInput placeholder="email" [(ngModel)]="email" type="email" name="email" required>
+                        </mat-form-field>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <mat-form-field style="width:100%">
+                            <input matInput placeholder="Password" [(ngModel)]="password" type="password" name="password" required>
+                        </mat-form-field>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <!-- <mat-spinner [style.display]="showSpinner ? 'block' : 'none'"></mat-spinner> -->
+        <!-- </mat-card-content> -->
+        <!-- <mat-card-actions> -->
+        <button style="background-color: #ed2553;" mat-raised-button (click)="login()" color="primary">Login</button>
+        <!-- </mat-card-actions> -->
+    </div>
