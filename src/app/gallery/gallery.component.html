@@ -1,0 +1,28 @@
+<!-- <p>fbc1430b91d1e420764cfabcaf763020a39f903fbb4ed9890b654c61715230c5</p>
+<p>Secret 4c29e12d5fa218b06f300570eced65dfc20148a233529193c64795e06c00a599</p> -->
+<!-- <p>563492ad6f917000010000016e1e19be60cc4c199200efbfd3258dee</p> -->
+<div>
+
+    <mat-toolbar>Gallery</mat-toolbar>
+    <div class="row">
+        <div class="col-md-3" *ngFor="let img of gallery;">
+            <mat-card style="padding:0 !important;margin-bottom: 10px;padding-bottom: 0 !important;">
+                <div class="content1" (click)="openDialog(img)">
+                    <div class="content-overlay"></div>
+                    <img mat-card-image [src]="img.src.portrait" height="100%" />
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Photographer</h3>
+                        <p class="content-text">{{img.photographer}}</p>
+                    </div>
+
+                </div>
+                <div style="display: flex;justify-content: center;padding-bottom: 10px !important;">
+                    <mdb-icon fab icon="facebook " size="1x " class="mr-4 "></mdb-icon>
+                    <mdb-icon fab icon="instagram " size="1x " class="mr-4 "></mdb-icon>
+                    <mdb-icon fab icon="pinterest " size="1x " class="mr-4 "></mdb-icon>
+
+                </div>
+            </mat-card>
+        </div>
+    </div>
+</div>
